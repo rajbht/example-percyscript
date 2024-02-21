@@ -1,0 +1,14 @@
+{
+  "name": "percyscript",
+  "version": "1.0.0",
+  "description": "visual testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/script": "^1.1.0"
+  }
+}
