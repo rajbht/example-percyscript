@@ -1,0 +1,98 @@
+body {
+  background-image: url(./assets/shutterstock_1680256285.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(0, 88, 147, 1);
+}
+
+.header {
+  height: 66px;
+  background: rgba(0, 88, 147, 1);
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0%, rgba(0, 88, 147, 1)),
+    color-stop(59%, rgba(0, 88, 147, 1)),
+    color-stop(86%, rgba(119, 196, 42, 1)),
+    color-stop(100%, rgba(119, 196, 42, 1))
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(0, 88, 147, 1)),
+    color-stop(59%, rgba(0, 88, 147, 1)),
+    color-stop(86%, rgba(119, 196, 42, 1)),
+    to(rgba(119, 196, 42, 1))
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 88, 147, 1) 0%,
+    rgba(0, 88, 147, 1) 59%,
+    rgba(119, 196, 42, 1) 86%,
+    rgba(119, 196, 42, 1) 100%
+  );
+}
+
+.logo {
+  min-height: 66px;
+  width: 288px;
+  margin-left: 2px;
+  filter: brightness(0) invert(1);
+}
+
+.sub_header {
+  margin-left: 2em;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.9;
+
+  font-family: "Source Sans Pro";
+  @media only screen and (max-width: 320px) {
+    body {
+      font-size: 2em;
+    }
+  }
+}
+
+.logo-wrapper {
+  padding-left: 16%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header {
+  border-bottom: white solid 1.3px;
+}
+
+.banner {
+  margin: 0 auto;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 16px;
+  padding-bottom: 60px;
+  margin-top: calc(350px / 2);
+  text-align: center;
+  color: rgb(19, 101, 155);
+  background-color: rgb(255, 255, 255, 0.9);
+  height: auto;
+  overflow: hidden;
+  width: fit-content;
+  background-size: cover;
+  font-size: 22px;
+}
+
+.banner h1 {
+  font-size: 60px;
+  padding-bottom: 12px;
+  font-family: "Roboto Slab";
+}
+
+.banner p {
+  font-size: 20px;
+  padding-bottom: 12px;
+  font-family: "Roboto";
+}
